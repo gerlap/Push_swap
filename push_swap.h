@@ -6,7 +6,7 @@
 /*   By: georgiilapshin <georgiilapshin@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/24 19:00:54 by glapshin          #+#    #+#             */
-/*   Updated: 2025/03/25 02:20:56 by georgiilaps      ###   ########.fr       */
+/*   Updated: 2025/03/26 00:23:37 by georgiilaps      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,5 +67,9 @@ void sort_3(t_node **a);
 void sort_4_5(t_node **a, t_node **b);
 void turk_sort(t_node **a, t_node **b, int chunks);
 void assign_indices(t_node *stack);
+
+//additional for tester
+void    push_back(t_node **stack, int value);
+void    free_stack(t_node *stack);
 
 #endif

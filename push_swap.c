@@ -6,7 +6,7 @@
 /*   By: georgiilapshin <georgiilapshin@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/24 19:00:37 by glapshin          #+#    #+#             */
-/*   Updated: 2025/03/25 02:22:21 by georgiilaps      ###   ########.fr       */
+/*   Updated: 2025/03/26 01:36:12 by georgiilaps      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ int main(int argc, char **argv) {
 	    error_exit();
     
     int c = 0;
-    c = argc / 20;
+    c = argc / 16;
     stack_a = argv_to_linked_list(argc, argv);
     stack_b = NULL;
 
